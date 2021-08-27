@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Formulário Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/e2f75f3f1a.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+		
+		<div class="container">
+
+			<div class="navigation">
+				<header>
+					<h2 class="navigation__title">Curso Front-end - HTML</h2>
+				</header>
+			
+
+				<nav>
+					<ul class="navigation__links">
+						<li><a
+							 class="navigation__links__item-link" href="#home">Home</a>
+						</li>
+						<li><a 
+							class="navigation__links__item-link" href="#sobre">Sobre</a>
+						</li>
+						<li><a
+							 class="navigation__links__item-link" href="#contact1">Contato</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		
+			<aside class="aside">
+			
+				<img src="./imagem/imagem.jpeg">
+				
+				<div class="anside__text">
+					<p>O meu nome é <b>Farlei Amaral</b>, tenho 30 anos e trabalho na empresa de tecnologia <b>ALPZ</b></p>
+					<p>O meu objetivo no curso de Front-end, é adquirir o máximo de conhecimento para poder aplicar na empresa que eu trabalho atualmente, e assim crescer profissionalmente na área.</p>
+				</div>
+
+				<div class="aside__icon">
+					<a href="https://www.facebook.com/farley.amaral.18">
+						<i class="fab fa-facebook"></i>
+					</a>
+					<a href="https://www.instagram.com/farlei_amaral20/">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="https://www.whatsapp.com/">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				
+				</div>
+
+
+			</aside>
+			
+			<main>
+
+				<section>
+
+					<div class="content">
+
+							<h2 class="main__title__h2">O que é front-end?</h2>							
+							<p>O<b>front-end</b> é a parte do site com a qual você pode ver e interagir diretamente para receber os recursos de back-end do sistema. Envolve tudo o que o usuário pode ver, tocar e experimentar. O papel de um web designer mudou drasticamente ao longo dos anos, mas as principais funções do desenvolvimento de sites permanecem as mesmas.</p>
+						
+					</div>
+				</section>
+
+				<section class="main__projects">
+					<h2 class="main__projects__title__h2">Projetos</h2>
+					<div class="main__projects__thumb__list">
+						<img class="main__projects__thumb" src="./imagem/imagem_2.jpg">
+						<img class="main__projects__thumb"src="./imagem/imagem_3.jpg">
+						<img class="main__projects__thumb"src="./imagem/imagem_4.jpg">
+						<img class="main__projects__thumb"src="./imagem/imagem_5.jpg">
+					</div>
+					
+				</section>
+
+
+				<section class="main_title">
+
+					<div id="#contact1" class="title">
+						<h1 class="main__title-form-h1">Contato</h1>
+						<p class="main__title-form">Preencha os campos abaixo</p>
+					</div>
+						
+				</section>
+
+				<section class="main__form">
+
+						<form class="main__form__contact">
+
+							
+								<label class="label" for="nome">Nome</label><br>
+								<input class="input" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+													
+								<label class="label" for="email">E-mail</label><br>
+								<input class="input" type="email" name="email" id="email" placeholder="Digite seu email">
+							
+						
+								<label class="label" for="mensagem">Mensagem</label><br>
+								<textarea class="textarea" name="mensagem" id="mensagem" rows="5"></textarea>
+							
+
+							<div class="prefer">
+								<p class="main__prefer">
+									<label>Qual linguagem você prefere?</label>
+									<input type="radio" name="linguagens" value="html"> HTML
+									<input type="radio" name="linguagens" value="css"> CSS
+									<input type="radio" name="linguagens" value="javascript"> JavaScript
+								</p>
+							</div>
+
+							<div class="Know">
+								<p class="main__know">
+									<label>Quais linguagens você sabe?</label>
+									<input type="checkbox" name="linguagens" value="html"> HTML
+									<input type="checkbox" name="linguagens" value="css"> CSS
+									<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+								</p>
+							</div>
+
+							<div class="color">
+								<label>Qual a sua cor favorita?</label>
+								<select>
+									<option value="Azul">Azul</option>
+									<option value="Verde">Verde</option>
+									<option value="Vermelho" selected>Vermelho</option>
+								</select>
+							</div>
+
+							<div >
+								<input class="button" type="submit" >
+							</div>
+							
+						</form>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<p class="footer__text">Desenvolvido por Farlei Amaral</p>
+			</footer>
+
+		</div>	
+			
+	</body>
+</html>
